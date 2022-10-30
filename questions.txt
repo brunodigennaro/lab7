@@ -1,0 +1,36 @@
+Bruno DiGennaro
+CPSC 1111 001: Lab 7, Fall 2022
+
+Using an editor, answer the following questions:
+
+NAME:
+
+---------
+example.c
+---------
+1) What is the cause of the seg fault in the program called example.c?
+    The condition caused the loop to be infinite on line 10.
+
+
+--------
+broken.c
+--------
+2) What line in broken.c did the program seg fault on?
+    line 32
+
+3) What was the value of the variable "count" at the time of the seg fault?
+    10
+
+4) What was the value of the variable "i" at the time of the seg fault?
+    661
+
+5) What was the value of the variable "search" at the time of the seg fault?
+    1
+
+6) What are the values in the "table" array?
+    {5, 10, 12, 14, 16, 18, 20, 22, 24, 26}
+
+7) what do you think the bug is?
+    The condition of the second while loop only has one "=". There needed to be two "="
+    in order to be a funtional condition.
+
